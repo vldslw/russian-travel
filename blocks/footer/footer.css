@@ -1,0 +1,7 @@
+.footer {
+  margin: 0 48px 0;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  border: solid dodgerblue 1px;
+}
