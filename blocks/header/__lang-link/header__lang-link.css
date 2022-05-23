@@ -1,7 +1,7 @@
 .header__lang-link {
   color: #FFFFFF;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   margin-top: calc(46px - 28px);
   text-decoration: none;
 }
