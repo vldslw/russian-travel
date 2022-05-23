@@ -3,3 +3,9 @@
   display: block;
   margin: 0;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .lead__image-figure {
+    width: 928px;
+  }
+}

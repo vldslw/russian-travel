@@ -1,6 +1,15 @@
 .lead {
+  max-width: 984px;
   min-height: 1005px;
-  width: 984px;
   background-color: #2A2C2F;
   margin: 0 148px 92px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px)  {
+  .lead {
+    max-width: 928px;
+    min-height: 962px;
+    margin: 0 48px 92px;
+  }
+
 }

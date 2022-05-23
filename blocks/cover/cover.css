@@ -5,3 +5,12 @@
   position: relative;
   z-index: 0;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+    margin: 0 0 92px;
+  }
+
+}

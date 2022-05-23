@@ -7,3 +7,12 @@
   grid-template-rows: repeat(5, 1fr);
   gap: 80px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .places {
+    max-width: 928px;
+    min-height: 3292px;
+    margin: 0 48px 92px;
+    display: grid;
+  }
+}

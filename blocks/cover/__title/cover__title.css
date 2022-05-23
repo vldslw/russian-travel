@@ -7,3 +7,10 @@
   text-align: center;
   opacity: 0.999;
   }
+
+  @media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .cover__title {
+      margin: 0 232px 32px;
+      padding-top: 195px;
+    }
+  }
