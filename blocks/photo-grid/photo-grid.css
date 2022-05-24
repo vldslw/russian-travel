@@ -16,3 +16,23 @@
     grid-template-rows: repeat(4, 1fr);
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .photo-grid {
+    margin: 0 24px 88px;
+    max-width: 720px;
+    min-height: 1664px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    margin: 0 16px 64px;
+    max-width: 288px;
+    min-height: 2724px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+  }
+}

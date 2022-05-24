@@ -3,3 +3,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 425px) {
+  .header__lang-links {
+    width: calc(22px + 18px + 22px);
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -13,3 +13,19 @@
   }
 
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+  .lead {
+    max-width: 768px;
+    min-height: 862px;
+    margin: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead {
+    max-width: 320px;
+    min-height: 406px;
+    margin: 0 0 64px;
+  }
+}

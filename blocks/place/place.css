@@ -5,3 +5,12 @@
   row-gap: 48px;
   column-gap: 40px;
 }
+
+@media screen and (max-width: 425px) {
+  .place {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 32px;
+  }
+}

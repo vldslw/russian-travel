@@ -7,3 +7,11 @@
   grid-template-rows: 18px;
   gap: 18px;
 }
+
+@media screen and (max-width: 425px) {
+  .footer_links {
+    grid-template-columns: 186px;
+    grid-template-rows: auto;
+    gap: 32px;
+  }
+}

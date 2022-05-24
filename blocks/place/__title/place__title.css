@@ -4,4 +4,28 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
+  align-self: end;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .place__title {
+    max-width: 440px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 0 16px;
+  }
 }
