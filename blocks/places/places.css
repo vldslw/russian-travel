@@ -1,5 +1,5 @@
 .places {
-  max-width: 984px;
+  width: calc(100% - (148px*2));
   min-height: 3392px;
   margin: 0 148px 92px;
   display: grid;

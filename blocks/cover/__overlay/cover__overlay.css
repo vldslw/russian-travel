@@ -2,8 +2,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 1184px;
-  height: 740px;
+  width: 100%;
   background: #2A2C2F;
   opacity: 0.3;
   z-index: -1;
