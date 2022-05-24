@@ -5,6 +5,17 @@
   justify-content: space-between;
 }
 
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .footer {
+    min-height: 310px;
+    margin: 0 auto 0 16px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .footer {
     min-height: 310px;

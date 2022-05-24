@@ -8,6 +8,14 @@
   gap: 18px;
 }
 
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .footer_links {
+    grid-template-columns: 186px;
+    grid-template-rows: auto;
+    gap: 32px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .footer_links {
     grid-template-columns: 186px;

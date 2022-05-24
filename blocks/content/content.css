@@ -1,5 +1,6 @@
 .content {
-  width: 1280px;
+  width: 100vw;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 auto;
   background-color: #2A2C2F;
@@ -7,24 +8,24 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .content {
-    width: 1024px;
+    max-width: 1024px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .content {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .content {
-    width: 425px;
+    max-width: 425px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .content {
-    width: 320px;
+    max-width: 320px;
   }
 }
