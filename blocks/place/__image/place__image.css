@@ -1,12 +1,9 @@
 .place__image {
-  width: 460px;
-  height: 460px;
+  width: 100%;
   object-fit: cover;
-  grid-column-start: 1;
-  grid-row-start: 2;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+/* @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__image {
     width: 440px;
     height: 440px;
@@ -34,4 +31,4 @@
     height: 320px;
     grid-row-start: 3;
   }
-}
+} */

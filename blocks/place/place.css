@@ -1,9 +1,26 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  /* calc("Половина экрана" - "внешний марджин" - "отступ между гридами" + "половина отступа между верхними гридами")*/
+  grid-template-columns: calc(50vw - 148px - 40px + 8px) calc(50vw - 148px - 8px);
+  /*grid-template-columns: calc(50vw - 180px) calc(50vw - 156px);*/
+  /*grid-template-columns: repeat(2, auto);*/
   grid-template-rows: repeat(2, auto);
   row-gap: 48px;
   column-gap: 40px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    grid-template-columns: calc(50vw - 48px - 32px + 8px) calc(50vw - 48px - 8px);
+    column-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place {
+    grid-template-columns: calc(50vw - 24px - 28px + 8px) calc(50vw - 24px - 8px);
+    column-gap: 28px;
+  }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {

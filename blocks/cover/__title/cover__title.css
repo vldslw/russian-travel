@@ -9,7 +9,7 @@
   text-align: center;
   }
 
-  @media screen and (min-width: 1024px) and (max-width: 1280px) {
+  @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover__title {
       margin: 0 232px 32px;
       padding-top: 195px;
