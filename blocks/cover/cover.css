@@ -1,9 +1,15 @@
 .cover {
-  width: calc(100% - (48px*2));
-  min-height: 740px;
+  width: calc(100vw - (48px*2));
+  height: calc((100vw - (48px*2))*0.625);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0 48px 92px;
   position: relative;
   z-index: 0;
+  background-image: url(../../images/cover-trains.jpg);
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
