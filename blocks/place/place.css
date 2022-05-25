@@ -1,9 +1,6 @@
 .place {
   display: grid;
-  /* calc("Половина экрана" - "внешний марджин" - "отступ между гридами" + "половина отступа между верхними гридами")*/
   grid-template-columns: calc(50vw - 148px - 40px + 8px) calc(50vw - 148px - 8px);
-  /*grid-template-columns: calc(50vw - 180px) calc(50vw - 156px);*/
-  /*grid-template-columns: repeat(2, auto);*/
   grid-template-rows: repeat(2, auto);
   row-gap: 48px;
   column-gap: 40px;
