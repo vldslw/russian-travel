@@ -1,7 +1,5 @@
 .lead {
   width: 100%;
-  /*width: calc(100% - (148px*2));*/
-  /*min-height: 1005px;*/
   background-color: #2A2C2F;
   box-sizing: border-box;
   padding: 0 148px 92px;
@@ -10,8 +8,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px)  {
   .lead {
     width: 100%;
-    /*width: calc(100% - (48px*2));
-    min-height: 962px;*/
     padding: 0 48px 92px;
   }
 
@@ -20,7 +16,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead {
     width: 100%;
-    /*min-height: 862px;*/
     padding: 0 0 88px;
   }
 }
@@ -28,7 +23,6 @@
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .lead {
     width: 100%;
-    /*min-height: 406px;*/
     padding: 0 0 64px;
   }
 }
@@ -36,7 +30,6 @@
 @media screen and (max-width: 424px) {
   .lead {
     width: 100%;
-    /*min-height: 406px;*/
     padding: 0 0 64px;
   }
 }
