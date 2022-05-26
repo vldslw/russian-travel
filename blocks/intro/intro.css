@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro {
     /*max-width: calc(100% - (24px*2));
     min-height: 429px;*/
@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
   .intro {
 
     /*max-width: calc(100% - (16px*2));
@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .intro {
 
     /*max-width: calc(100% - (16px*2));

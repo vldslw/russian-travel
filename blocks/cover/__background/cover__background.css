@@ -18,21 +18,21 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__background {
     width: 100vw;
     height: calc(100vw*0.625);
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
   .cover__background {
     width: 100vw;
     height: calc(100vw*0.625);
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .cover__background {
     width: 100vw;
     height: calc(100vw*0.625);

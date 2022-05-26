@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
   .lead__title {
     max-width: 288px;
     min-height: 88px;
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .lead__title {
     max-width: 288px;
     min-height: 88px;
