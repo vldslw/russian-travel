@@ -9,24 +9,9 @@
   text-align: center;
   }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover__title {
-      margin: 0 232px 32px;
-      padding-top: 195px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .cover__title {
-      margin: 0 104px 32px;
-      padding-top: 115px;
-    }
-}
-
 @media screen and (min-width: 425px) and (max-width: 767px) {
     .cover__title {
-      margin: 0 16px 16px;
-      padding-top: 33px;
+      margin: 0 0 16px;
       font-size: 32px;
       line-height: 1.09;
     }
@@ -34,8 +19,7 @@
 
 @media screen and (max-width: 424px) {
     .cover__title {
-      margin: 0 16px 16px;
-      padding-top: 33px;
+      margin: 0 0 16px;
       font-size: 32px;
       line-height: 1.09;
     }
