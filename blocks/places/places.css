@@ -1,7 +1,7 @@
 .places {
-  width: 100%;
-  box-sizing: border-box;
+  max-width: 984px;
   padding: 0 148px 92px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, auto);
