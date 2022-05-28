@@ -1,4 +1,17 @@
 .cover__link {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 62.5%;
   color: #FFFFFF;
   text-decoration: none;
 }
+
+/* Старый код */
+
+/*
+.cover__link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+*/
