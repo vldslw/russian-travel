@@ -1,0 +1,9 @@
+.footer__links-item {
+  margin: 0 18px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links-item {
+    margin: 0 0 32px 0;
+  }
+}
