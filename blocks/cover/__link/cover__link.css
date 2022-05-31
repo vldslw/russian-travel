@@ -21,8 +21,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
   width: 100%;
   height: 100%;
   background: #2A2C2F;
@@ -65,13 +63,3 @@
     min-height: 200px;
   }
 }
-
-
-/* .cover__link {
-  display: block;
-  position: relative;
-  width: 100%;
-  padding-bottom: 62.5%;
-  color: #FFFFFF;
-  text-decoration: none;
-} */
