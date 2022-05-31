@@ -1,9 +1,13 @@
 .footer__links-item {
-  margin: 0 18px 0 0;
+  margin: 0 18px 24px 0;
 }
 
 @media screen and (max-width: 767px) {
   .footer__links-item {
     margin: 0 0 32px 0;
+  }
+
+  .footer__links-item:last-of-type {
+    margin: 0 0 48px 0;
   }
 }
