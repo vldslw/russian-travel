@@ -1,11 +1,4 @@
 .header__lang-links {
-  width: calc(30px + 18px + 29px);
   display: flex;
-  justify-content: space-between;
 }
 
-@media screen and (max-width: 424px) {
-  .header__lang-links {
-    width: calc(22px + 18px + 22px);
-  }
-}
