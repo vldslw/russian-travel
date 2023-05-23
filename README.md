@@ -1,4 +1,4 @@
-# Проект: Путешествие по России
+# Проект "Путешествие по России"
 
 ## Описание
 
@@ -6,12 +6,14 @@
 
 ## Использованные технологии
 
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+
 В проекте использованы *адаптивная-верстка*, *гриды*, *флексбокс*, *медиазапросы*.
 Файловая структура проекта оранизована по правилам *Nested БЭМ*.
 
 ## Ссылка на сайт
 
-[GitHub Pages](https://vldslw.github.io/russian-travel/index.html)
+["Путешествие по России"](https://vldslw.github.io/russian-travel/index.html)
 
 
 
